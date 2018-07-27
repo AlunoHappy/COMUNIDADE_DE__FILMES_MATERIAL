@@ -1,0 +1,25 @@
+<ion-card>
+  <img [src]="'https://image.tmdb.org/t/p/w500'+movie.poster_path">
+  <ion-card-content>
+    <p>{{movie.overview}}</p>
+  </ion-card-content>
+  <ion-row>
+    <ion-col>
+      <button ion-button icon-start clear small>
+        <ion-icon name="thumbss-up"></ion-icon>
+        <div>12 likes</div>
+      </button>
+    </ion-col>
+    <ion-col>
+      <button ion-button icon-start clear small>
+        <ion-icon name="text"></ion-icon>
+        <div>4 commentss</div>
+      </button>
+    </ion-col>
+    <ion-col center text center>
+      <ion-note>
+        data
+      </ion-note>
+    </ion-col>
+  </ion-row>
+</ion-card>
